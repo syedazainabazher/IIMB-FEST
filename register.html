@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIMB FEST 2026</title>
+</head>
+<img src="https://www.iimb.ac.in/sites/default/files/inline-images/IIMB-Logo.png" height="50px">
+    
+<header>
+    <H1>IIMB FEST - 2026</H1>
+    <P>Welcome to the best fest in Banglore! We hope you enjoy this expeience and have a great time!</P>
+
+    <nav>
+        <a href="./index.html">Click here to go back to homepage</a>
+    </nav>
+</header>
+    <hr>
+    <h2>Register for the fest</h2>
+<form action="/register">
+    <label for="name">Write your name : </label>
+    <input type="text" name="name" id="name" required minlength="2" maxlength="12">
+    <br><br>
+    <label for="email">Write your email : </label>
+    <input type="email" name="email" id="email" required>
+    <br><br>
+    <label for="tshirtsize">Select your T-Shirt size : </label>
+    <select name="tshirtsize" id="tshirtsize">
+        <option value="0">please select an option</option>
+        <option value="38">38</option>
+        <option value="40">40</option>
+        <option value="42">42</option>
+        <option value="44">44</option>
+    </select>
+    <br><br>
+    <label for="attendee_type">Alumni</label>
+    <input type="radio" name="attendee_type" id="attendee_type" value="alumni">
+    <label for="attendee_type">Student</label>
+    <input type="radio" name="attendee_type" id="attendee_type" value="student">
+    <br><br>
+    <label for="checkbox">Do you agree to all the conditions?</label>
+    <input type="checkbox"name="tnc" id="checkbox" required>
+    <br><br>
+    <button type="submit">Register</button>
+</form>
